@@ -2,6 +2,7 @@
 # Format documentation: https://kicad.org/help/file-formats/
 
 # Temporary files
+resources/
 *.000
 *.bak
 *.bck
@@ -35,6 +36,7 @@ fp-info-cache
 
 # Archived Backups (KiCad 6.0)
 **/*-backups/*.zip
+_restore_backup_*
 
 # Local git-based history (KiCad 9.0+)
 .history
