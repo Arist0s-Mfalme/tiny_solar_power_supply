@@ -3,4 +3,6 @@
 	(lib (name "AP3015KTR-G1") (type "KiCad") (uri "${KIPRJMOD}/resources/AP3015KTR-G1/footprints.pretty") (options "") (descr ""))
 	(lib (name "2N7002ET1G") (type "KiCad") (uri "${KIPRJMOD}/resources/2N7002ET1G/footprints.pretty") (options "") (descr ""))
 	(lib (name "S2B-PH-K-S") (type "KiCad") (uri "${KIPRJMOD}/resources/S2B-PH-K-S/footprints.pretty") (options "") (descr ""))
+	(lib (name "WR08X1004FTL") (type "KiCad") (uri "${KIPRJMOD}/resources/R1, R4 - WR08X1004FTL/footprints.pretty") (options "") (descr ""))
+	(lib (name "WR08X1002FTL") (type "KiCad") (uri "${KIPRJMOD}/resources/R3, WR08X1002FTL/footprints.pretty") (options "") (descr ""))
 )
