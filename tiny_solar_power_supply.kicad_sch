@@ -594,184 +594,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 2.54)
-					(mid 0.6323 1.905)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 -0.635)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -1.905)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -1120,6 +942,269 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "L1, B78108S1103K000:B78108S1103K000"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at -10.16 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "B78108S1103K000"
+				(at -10.16 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "B78108S1103K000:INDAD1400W80L920D400"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" "https://snapeda.s3.amazonaws.com/media/tdkdatasheets2022/b78108_148s.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Description" "RF Choke Drum Core 10uH 10% 1MHz 70Q-Factor Ferrite 0.68A 0.49Ohm DCR AXL Automotive T/R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "DATASHEET_URL" "https://snapeda.s3.amazonaws.com/media/tdkdatasheets2022/b78108_148s.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "EPCOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "4.0 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MPN" "B78108S1103K000"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "June 2012"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SOURCE_URL" "https://www.snapeda.com/parts/B78108S1103K000/EPCOS/view-part/"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "IPC-7351B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "B78108S1103K000_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 0)
+					(mid -3.81 1.2645)
+					(end -2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0)
+					(mid -1.27 1.2645)
+					(end 0 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 1.27 1.2645)
+					(end 2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 3.81 1.2645)
+					(end 5.08 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1955,6 +2040,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 25.4) (xy 139.7 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22b7e466-598f-404e-b989-88d7d7c7a567")
+	)
+	(wire
+		(pts
 			(xy 86.36 34.29) (xy 91.44 34.29)
 		)
 		(stroke
@@ -1972,16 +2067,6 @@
 			(type default)
 		)
 		(uuid "249614d5-f62a-4148-85f6-a87354139e73")
-	)
-	(wire
-		(pts
-			(xy 120.65 25.4) (xy 148.59 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "348a7b9f-9881-4c6b-be74-09eede502276")
 	)
 	(wire
 		(pts
@@ -2235,16 +2320,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 25.4) (xy 179.07 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a87b817c-f00d-48b6-a4db-69c5617705e6")
-	)
-	(wire
-		(pts
 			(xy 215.9 40.64) (xy 215.9 39.37)
 		)
 		(stroke
@@ -2432,6 +2507,16 @@
 			(type default)
 		)
 		(uuid "fe0b883e-57b4-474e-8092-61b8070235f9")
+	)
+	(wire
+		(pts
+			(xy 165.1 25.4) (xy 179.07 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe7b778c-e06f-4d2d-b2ea-83deb0a8e6f3")
 	)
 	(label "0V"
 		(at 175.26 66.04 0)
@@ -2870,7 +2955,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2211S-02G:2211S-02G_MTC"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 81.28 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -3141,7 +3226,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ERJ6ENF6043V:RC0805N_PAN"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 199.644 56.896 90)
 			(hide yes)
 			(show_name no)
@@ -3326,7 +3411,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2211S-02G:2211S-02G_MTC"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 93.98 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -3418,7 +3503,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "WR08X1004FTL:RES_WR08_WRE"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 67.056 59.944 90)
 			(hide yes)
 			(show_name no)
@@ -3477,8 +3562,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 152.4 25.4 90)
+		(lib_id "L1, B78108S1103K000:B78108S1103K000")
+		(at 152.4 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3486,10 +3571,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a338b92e-887a-4c6e-9453-133dcc2b4fdc")
 		(property "Reference" "L1"
-			(at 152.4 20.32 90)
+			(at 152.4 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3498,8 +3582,8 @@
 				)
 			)
 		)
-		(property "Value" "10uH"
-			(at 152.4 22.86 90)
+		(property "Value" "10uH, 680mA"
+			(at 152.4 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3508,7 +3592,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_THT:L_Axial_L9.5mm_D4.0mm_P15.24mm_Horizontal_Fastron_SMCC"
+		(property "Footprint" "L1, B78108S110:INDAD1400W80L920D400"
 			(at 152.4 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -3517,9 +3601,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://snapeda.s3.amazonaws.com/media/tdkdatasheets2022/b78108_148s.pdf"
 			(at 152.4 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -3528,9 +3613,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "RF Choke Drum Core 10uH 10% 1MHz 70Q-Factor Ferrite 0.68A 0.49Ohm DCR AXL Automotive T/R"
 			(at 152.4 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -3539,6 +3625,101 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
+			)
+		)
+		(property "Purpose" ""
+			(at 152.4 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DATASHEET_URL" "https://snapeda.s3.amazonaws.com/media/tdkdatasheets2022/b78108_148s.pdf"
+			(at 152.4 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "EPCOS"
+			(at 152.4 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.0 mm"
+			(at 152.4 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "B78108S1103K000"
+			(at 152.4 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "June 2012"
+			(at 152.4 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/B78108S1103K000/EPCOS/view-part/"
+			(at 152.4 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 152.4 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 			)
 		)
 		(pin "1"
@@ -3588,7 +3769,7 @@
 				)
 			)
 		)
-		(property "Footprint" "S2B-PH-K-S:CONN_S2B-PH-K-S_JST"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
 			(at 49.53 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -3669,7 +3850,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "604k"
+		(property "Value" "1M"
 			(at 203.2 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3680,7 +3861,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "WR08X1004FTL:RES_WR08_WRE"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 201.676 44.704 90)
 			(hide yes)
 			(show_name no)
@@ -3705,6 +3886,16 @@
 		(property "Description" "Resistor, US symbol"
 			(at 200.66 44.45 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" ""
+			(at 200.66 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3762,7 +3953,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "C2012X7R1H475K125AE:CAP_C2012_125_TDK"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 121.6152 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -3854,7 +4045,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LMK316AB7226ML-TR:CAP_LMK316AB7226ML-TR_TAY"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 228.2952 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -3944,7 +4135,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2211S-02G:2211S-02G_MTC"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 245.11 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4036,7 +4227,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "WR08X1002FTL:RES_WR08_WRE"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 101.346 42.164 90)
 			(hide yes)
 			(show_name no)

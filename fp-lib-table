@@ -5,4 +5,5 @@
 	(lib (name "S2B-PH-K-S") (type "KiCad") (uri "${KIPRJMOD}/resources/S2B-PH-K-S/footprints.pretty") (options "") (descr ""))
 	(lib (name "WR08X1004FTL") (type "KiCad") (uri "${KIPRJMOD}/resources/R1, R4 - WR08X1004FTL/footprints.pretty") (options "") (descr ""))
 	(lib (name "WR08X1002FTL") (type "KiCad") (uri "${KIPRJMOD}/resources/R3, WR08X1002FTL/footprints.pretty") (options "") (descr ""))
+	(lib (name "L1, B78108S110") (type "KiCad") (uri "${KIPRJMOD}/resources/L1, B78108S110") (options "") (descr ""))
 )
