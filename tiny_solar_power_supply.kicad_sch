@@ -3940,7 +3940,7 @@
 		(dnp no)
 		(uuid "a338b92e-887a-4c6e-9453-133dcc2b4fdc")
 		(property "Reference" "L1"
-			(at 144.78 20.32 0)
+			(at 147.32 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3950,7 +3950,7 @@
 			)
 		)
 		(property "Value" "10uH, 680mA"
-			(at 144.78 22.86 0)
+			(at 160.02 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
