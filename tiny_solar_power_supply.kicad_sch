@@ -949,9 +949,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "L1, B78108S1103K000:B78108S1103K000"
+		(symbol "L1, ASPI-0630LR-100M-T15:ASPI-0630LR-100M-T15"
+			(body_styles demorgan)
 			(pin_names
-				(offset 1.016)
+				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -959,28 +960,50 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "L"
-				(at -10.16 7.62 0)
+				(at 6.985 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" "B78108S1103K000"
-				(at -10.16 5.08 0)
+			(property "Value" "ASPI-0630LR-100M-T15"
+				(at 6.985 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "B78108S1103K000:INDAD1400W80L920D400"
+			(property "Footprint" "IND_ASPI-0630LR_ABR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "ASPI-0630LR-100M-T15"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -989,10 +1012,19 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
-			(property "Datasheet" "https://snapeda.s3.amazonaws.com/media/tdkdatasheets2022/b78108_148s.pdf"
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "ASPI-0630LR-100M-T15"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1001,10 +1033,9 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
-			(property "Description" "RF Choke Drum Core 10uH 10% 1MHz 70Q-Factor Ferrite 0.68A 0.49Ohm DCR AXL Automotive T/R"
+			(property "ki_fp_filters" "IND_ASPI-0630LR_ABR IND_ASPI-0630LR_ABR-M IND_ASPI-0630LR_ABR-L"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1013,100 +1044,15 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
-			(property "DATASHEET_URL" "https://snapeda.s3.amazonaws.com/media/tdkdatasheets2022/b78108_148s.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MANUFACTURER" "EPCOS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "4.0 mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MPN" "B78108S1103K000"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "PARTREV" "June 2012"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "SOURCE_URL" "https://www.snapeda.com/parts/B78108S1103K000/EPCOS/view-part/"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "STANDARD" "IPC-7351B"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(symbol "B78108S1103K000_0_0"
+			(symbol "ASPI-0630LR-100M-T15_1_1"
 				(polyline
 					(pts
-						(xy -5.08 0) (xy -7.62 0)
+						(xy 2.54 0) (xy 2.54 1.27)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -1114,47 +1060,11 @@
 					)
 				)
 				(arc
-					(start -5.08 0)
-					(mid -3.81 1.2645)
-					(end -2.54 0)
+					(start 2.54 1.27)
+					(mid 3.81 2.5344)
+					(end 5.08 1.27)
 					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 0)
-					(mid -1.27 1.2645)
-					(end 0 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 1.27 1.2645)
-					(end 2.54 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 0)
-					(mid 3.81 1.2645)
-					(end 5.08 0)
-					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -1163,48 +1073,266 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 0) (xy 7.62 0)
+						(xy 5.08 0) (xy 5.08 1.27)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(pin passive line
-					(at -12.7 0 0)
-					(length 5.08)
-					(name ""
+				(arc
+					(start 5.08 1.27)
+					(mid 6.35 2.5344)
+					(end 7.62 1.27)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 7.62 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 1.27)
+					(mid 8.89 2.5344)
+					(end 10.16 1.27)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 10.16 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 10.16 1.27)
+					(mid 11.43 2.5344)
+					(end 12.7 1.27)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 0) (xy 12.7 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 12.7 0 180)
-					(length 5.08)
-					(name ""
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ASPI-0630LR-100M-T15_1_2"
+				(arc
+					(start -1.27 10.16)
+					(mid -2.5344 11.43)
+					(end -1.27 12.7)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 7.62)
+					(mid -2.5344 8.89)
+					(end -1.27 10.16)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 5.08)
+					(mid -2.5344 6.35)
+					(end -1.27 7.62)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 2.54)
+					(mid -2.5344 3.81)
+					(end -1.27 5.08)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 12.7) (xy -1.27 12.7)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 10.16) (xy -1.27 10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.62) (xy -1.27 7.62)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy -1.27 5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 15.24 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -2102,6 +2230,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 25.4) (xy 179.07 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04a0bdba-5412-4549-8d6a-18e256d11cb5")
+	)
+	(wire
+		(pts
 			(xy 128.27 39.37) (xy 133.35 39.37)
 		)
 		(stroke
@@ -2192,7 +2330,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 25.4) (xy 139.7 25.4)
+			(xy 120.65 25.4) (xy 144.78 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2659,16 +2797,6 @@
 			(type default)
 		)
 		(uuid "fe0b883e-57b4-474e-8092-61b8070235f9")
-	)
-	(wire
-		(pts
-			(xy 165.1 25.4) (xy 179.07 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe7b778c-e06f-4d2d-b2ea-83deb0a8e6f3")
 	)
 	(label "BAT_P"
 		(at 85.09 39.37 0)
@@ -3801,8 +3929,8 @@
 		)
 	)
 	(symbol
-		(lib_id "L1, B78108S1103K000:B78108S1103K000")
-		(at 152.4 25.4 0)
+		(lib_id "L1, ASPI-0630LR-100M-T15:ASPI-0630LR-100M-T15")
+		(at 144.78 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3812,7 +3940,7 @@
 		(dnp no)
 		(uuid "a338b92e-887a-4c6e-9453-133dcc2b4fdc")
 		(property "Reference" "L1"
-			(at 152.4 20.32 0)
+			(at 144.78 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3822,7 +3950,7 @@
 			)
 		)
 		(property "Value" "10uH, 680mA"
-			(at 152.4 22.86 0)
+			(at 144.78 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3831,32 +3959,32 @@
 				)
 			)
 		)
-		(property "Footprint" "L1, B78108S110:INDAD1400W80L920D400"
-			(at 152.4 25.4 0)
+		(property "Footprint" "IND_ASPI-0630LR_ABR"
+			(at 144.78 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Datasheet" "https://snapeda.s3.amazonaws.com/media/tdkdatasheets2022/b78108_148s.pdf"
-			(at 152.4 25.4 0)
+		(property "Datasheet" "ASPI-0630LR-100M-T15"
+			(at 144.78 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Description" "RF Choke Drum Core 10uH 10% 1MHz 70Q-Factor Ferrite 0.68A 0.49Ohm DCR AXL Automotive T/R"
-			(at 152.4 25.4 0)
+			(at 144.78 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3864,11 +3992,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Purpose" ""
-			(at 152.4 25.4 0)
+			(at 144.78 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3878,7 +4005,7 @@
 			)
 		)
 		(property "DATASHEET_URL" "https://snapeda.s3.amazonaws.com/media/tdkdatasheets2022/b78108_148s.pdf"
-			(at 152.4 25.4 0)
+			(at 144.78 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3890,7 +4017,7 @@
 			)
 		)
 		(property "MANUFACTURER" "EPCOS"
-			(at 152.4 25.4 0)
+			(at 144.78 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3902,7 +4029,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "4.0 mm"
-			(at 152.4 25.4 0)
+			(at 144.78 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3914,7 +4041,7 @@
 			)
 		)
 		(property "MPN" "B78108S1103K000"
-			(at 152.4 25.4 0)
+			(at 144.78 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3926,7 +4053,7 @@
 			)
 		)
 		(property "PARTREV" "June 2012"
-			(at 152.4 25.4 0)
+			(at 144.78 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3938,7 +4065,7 @@
 			)
 		)
 		(property "SOURCE_URL" "https://www.snapeda.com/parts/B78108S1103K000/EPCOS/view-part/"
-			(at 152.4 25.4 0)
+			(at 144.78 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3950,7 +4077,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7351B"
-			(at 152.4 25.4 0)
+			(at 144.78 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3959,6 +4086,16 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "Short description" ""
+			(at 144.78 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
